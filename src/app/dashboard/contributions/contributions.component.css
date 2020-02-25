@@ -1,0 +1,32 @@
+.mainDiv {
+    border: solid 1px rgb(68, 65, 65);
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    display: inline-block;
+}
+
+.leaderboardImage {
+    height: 30px;
+}
+
+.contributorLists {
+    margin: 30px 50px 10px 10px;
+}
+
+.individualList {
+    display: block;
+    float: left;
+}
+
+.teamList {
+    display: block;
+    float: right;
+}
+
+.points {
+    float: right;
+}
+
+.rewardsImage {
+    height: 30px;
+}

@@ -12,6 +12,13 @@ import { TopProcessesComponent } from './dashboard/top-processes/top-processes.c
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+
+
+import { UserService } from './dashboard/shared/user.service'
+import { ContributionsService } from './dashboard/shared/contributions.service'
 
 @NgModule({
   declarations: [
@@ -27,10 +34,13 @@ import { MatSliderModule } from '@angular/material/slider';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatInputModule
   ],
   exports: [MatSliderModule],
-  providers: [],
+  providers: [UserService, ContributionsService],
   bootstrap: [DashboardComponent]
 })
 export class AppModule { }

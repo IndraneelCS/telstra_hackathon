@@ -1,3 +1,18 @@
-<header>
-    <p>header works!</p>
+<header class="appHeader">
+    <div>
+        <mat-card-title class="userName">Hi {{user.firstName}}! </mat-card-title>
+    </div>
+    <div class="userDetails">
+        <mat-card-subtitle>{{user.role}}</mat-card-subtitle><br>
+        <mat-card-subtitle>{{user.department}}</mat-card-subtitle>
+    </div>
+    <div class="userImages">
+        <img class="userAvatar" [src]='getUserAvatarUrl()' />
+        <span *ngFor="let reward of user.rewards">
+            <img class="userRewards" src="/assets/rewards/{{reward}}.png" />
+        </span>
+    </div>
+    <span class="earth">
+        <img class="earthImage" src="/assets/earth.png" />
+    </span>
 </header>

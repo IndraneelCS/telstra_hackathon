@@ -1,1 +1,26 @@
-<p>contributions works!</p>
+<div class="mainDiv">
+    <mat-card-title class="userName">Contribution Leaderboard</mat-card-title>
+    <img class="leaderboardImage" src="/assets/contribution.png" />
+    <div class="contributorLists">
+        <span class="individualList">
+            <h4>Individual</h4>
+            <span *ngFor='let individual of individualRankings; let i = index'>
+                <div>
+                    <mat-label>{{i+1}}. {{individual}}</mat-label>
+                </div>
+            </span>
+        </span>
+        <span class="teamList">
+            <h4>Team</h4>
+            <span *ngFor='let team of teamRankings; let i = index'>
+                <div>
+                    <mat-label>{{i+1}}. {{team.name}}</mat-label>
+                </div>
+            </span>
+        </span>
+    </div>
+    <div class="points">
+        <img class="rewardsImage" src="/assets/rewards.png" />
+        <mat-card-subtitle>Redeem points</mat-card-subtitle>
+    </div>
+</div>

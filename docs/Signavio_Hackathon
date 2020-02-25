@@ -1,0 +1,69 @@
+
+
+
+
+	1. Use HTML5 Elements
+	
+	2. Use a CSS Reset - Normalize.css
+	
+	3. Typographic scales and Vertical Rhythm
+	
+	4. Global Styles
+	
+	5. Test validation, contrast and cross-browser.
+	
+	
+	Website to be HTML semantic. Cross browser compliant. Proper color contrast. Fluid. Responsive. Lint. 
+	Mobile First approach. Progressive enhancement. Accessible. 
+	
+	LIFT principle:
+	
+		Locate Code Quickly
+		
+		Identify Code at a glance
+		
+		Flattest structure possible
+		
+		Try to be DRY
+	
+	
+	
+	Steps to complete development:
+	
+		1. Identify and create components.
+		
+		2. Create services for data.
+		
+		3. Finish HTML code using the data from services.
+		
+		4. Apply CSS styling.
+		
+		5. Web workers to be used if any computation is taking more time.
+		
+		6. Service workers to be used for caching server data. 
+		
+			Service workers enables our app to become Progressive Web App (PWA)
+			
+			Use App shell to cache static content and fetch only dynamic content from servers.
+			
+		7. Push notfications wherever it makes sense.
+		
+		8. Webapp manifest and robots.txt to be included.
+		
+		9. 
+			
+		
+		
+		
+		
+	Show the first page quickly:
+	
+		Displaying the first page quickly can be critical for user engagement. 
+
+		53 percent of mobile site visits are abandoned if pages take longer than 3 seconds to load. 
+
+		Your app may have to launch faster to engage these users before they decide to do something else.
+	
+	
+	
+

@@ -1,0 +1,48 @@
+.appHeader {
+    margin: 40px auto auto 40px;
+}
+
+.userName {
+    color: rgb(17, 17, 112);
+    font-size: 250%;
+}
+
+.userDetails {
+    display: inline-block;
+}
+
+.userImages {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.userAvatar {
+    height: 50px;
+}
+
+.userRewards {
+    height: 30px;
+}
+
+.earth {
+    float: right;
+    margin-right: 50px;
+}
+
+
+/* Media Query to fix user avatar getting to next line */
+
+@media screen and (max-width: 375px) {
+    .userAvatar {
+        height: 30px;
+    }
+}
+
+
+/* Media Query to fix Earth moving to next line */
+
+@media screen and (max-width: 430px) {
+    .earthImage {
+        height: 20px;
+    }
+}
